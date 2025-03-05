@@ -1,0 +1,24 @@
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 10px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li a{
+    font-size: 22px;
+    text-decoration: none;
+    color:black;
+    border-bottom: 0px;
+}
+.navbar ul li a:hover{
+    transition: all 0.1s linear;
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,19 @@
+.footor .footor-icons img{
+    width: 30px;
+}
+.footor .footor-icons{
+    display: flex;
+    gap: 15px;
+}
+.footor{
+    padding: 40px 4%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footor .footor-links{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,::placeholder{
+    font-family: sans-serif;
+}
+.input{
+    width: 300px;
+    height: 45px;
+    background: white;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.b-container{
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    height: 45px;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    background: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px ;
+    margin-left: 20px;
+}
+.btn-blue,.btn-red{
+    height: 35px;
+    font-size: 16px;
+    width: 80px;
+    padding: 5px;
+}
+.btn-blue{
+    background-color: rgb(52, 52, 154);
+}
+.btn-red{
+    background-color: rgb(147, 1, 1);
+}
+.eachlist{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.eachlist p{
+    background-color: white;
+    width: 300px;
+    font-size: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+h1{
+    margin-top: 10px;
+}
+.para{
+    font-size:20px;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+    letter-spacing: 1px;
+}
+.heading-2{
+    font-size: 30px;
+    color: brown;
+    letter-spacing: 1px;
+}
+ol li{
+    list-style-type:lower-roman;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+body{
+    width: 100vw;
+    margin:20px auto;
+    margin-left: 100px;
+}
+.container-1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+input{
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    border: none;
+    font-size: 20px;
+}
+button{
+    padding:10px 20px;
+    color: white;
+    background: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+}
+.mt{
+    margin-top: 20px;
+}

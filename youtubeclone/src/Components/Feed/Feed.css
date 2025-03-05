@@ -1,0 +1,72 @@
+.feed{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 10px;
+}
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h2{
+    font-size: 16px;
+    font-weight:500;
+    color: black;
+    margin: 5px 0;
+}
+.card h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    margin: 6px 0;
+}
+.card p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Four columns for large devices */
+/* @media (min-width: 1024px) {
+    .feed {
+        grid-template-columns: repeat(4, 1fr);
+    }
+} */
+
+/* Three columns for tablets */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .feed {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Two columns for smaller tablets */
+@media (min-width: 767px) and (max-width: 1024px) {
+    .feed {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* One column for mobile devices */
+@media (max-width: 767px) {
+    .feed {
+        grid-template-columns: 1fr;
+        padding: 0 7%;
+    }
+}

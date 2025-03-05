@@ -1,0 +1,45 @@
+.title-cards{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.card-list{
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+}
+.card-list::-webkit-scrollbar{
+    display: none;
+}
+.title-cards .card-list-heading{
+    margin-bottom: 20px;
+}
+.card-list .each-card img{
+    width: 250px;
+    border-radius: 4px;
+}
+.card-list .each-card{
+    position: relative;
+}
+.card-list .each-card p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 500;
+    color: white;
+}
+@media screen and (max-width:700px){
+    .card-list .each-card img{
+        width: 150px;
+    }
+    .card-list .each-card p{
+        bottom: 5px;
+        left: 5px;
+        font-size: 12px;
+    }
+    .title-cards .card-list-heading{
+        font-size: 20px;
+    }
+    .title-cards{
+        margin-top: 30px;
+    }
+}

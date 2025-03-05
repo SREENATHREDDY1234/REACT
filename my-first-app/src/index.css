@@ -1,0 +1,49 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.heading{
+  margin: 20px auto;
+  font-size: 20px;
+}
+.para{
+  font-size: 16px;
+  padding: 10px;
+}
+.image{
+  width: 500px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+body{
+  background-color:antiquewhite;
+  margin-left: auto;
+  width: 100vw;
+  height: 100vh;
+}
+.bg-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.container{
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 500px;
+  gap: 100px;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
